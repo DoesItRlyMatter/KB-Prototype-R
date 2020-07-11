@@ -587,10 +587,10 @@ F 3 "" H 7700 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5F0AC297
 P 4100 9900
-F 0 "#PWR?" H 4100 9650 50  0001 C CNN
+F 0 "#PWR0111" H 4100 9650 50  0001 C CNN
 F 1 "GND" H 4105 9727 50  0000 C CNN
 F 2 "" H 4100 9900 50  0001 C CNN
 F 3 "" H 4100 9900 50  0001 C CNN
@@ -601,4 +601,58 @@ Wire Wire Line
 	3350 8300 4250 8300
 Wire Wire Line
 	3350 8200 4250 8200
+Text GLabel 3350 7300 2    50   Input ~ 0
+ROW0
+Text GLabel 3350 7200 2    50   Input ~ 0
+ROW1
+Text GLabel 3350 9400 2    50   Input ~ 0
+ROW2
+Text GLabel 3350 7000 2    50   Input ~ 0
+COL0
+Text GLabel 3350 7100 2    50   Input ~ 0
+COL1
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F0C5942
+P 5650 8350
+F 0 "H?" H 5750 8396 50  0000 L CNN
+F 1 "MountingHole" H 5750 8305 50  0000 L CNN
+F 2 "" H 5650 8350 50  0001 C CNN
+F 3 "~" H 5650 8350 50  0001 C CNN
+	1    5650 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F0C6836
+P 5650 8600
+F 0 "H?" H 5750 8646 50  0000 L CNN
+F 1 "MountingHole" H 5750 8555 50  0000 L CNN
+F 2 "" H 5650 8600 50  0001 C CNN
+F 3 "~" H 5650 8600 50  0001 C CNN
+	1    5650 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F0C6B0F
+P 5650 8100
+F 0 "H?" H 5750 8146 50  0000 L CNN
+F 1 "MountingHole" H 5750 8055 50  0000 L CNN
+F 2 "" H 5650 8100 50  0001 C CNN
+F 3 "~" H 5650 8100 50  0001 C CNN
+	1    5650 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F0C724C
+P 5650 7850
+F 0 "H?" H 5750 7896 50  0000 L CNN
+F 1 "MountingHole" H 5750 7805 50  0000 L CNN
+F 2 "" H 5650 7850 50  0001 C CNN
+F 3 "~" H 5650 7850 50  0001 C CNN
+	1    5650 7850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
